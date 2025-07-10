@@ -140,7 +140,7 @@ def create_podcast_discussion(
         model=configuration.tts_model,
         contents=tts_prompt,
         config=types.GenerateContentConfig(
-            response_modalities=["VIDEO"],
+            response_modalities=["AUDIO"],
             speech_config=types.SpeechConfig(
                 multi_speaker_voice_config=types.MultiSpeakerVoiceConfig(
                     speaker_voice_configs=[

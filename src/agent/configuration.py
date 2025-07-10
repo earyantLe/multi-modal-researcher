@@ -13,7 +13,7 @@ class Configuration:
     """LangGraph Configuration for the deep research agent."""
 
     # Model settings
-    search_model: str = "gemini-2.5-pro"  # Web search supported model
+    search_model: str = "gemini-2.5-flash"  # Web search supported model
     synthesis_model: str = "gemini-2.5-pro"  # Citations supported model
     video_model: str = "gemini-2.5-pro"  # Citations supported model
     tts_model: str = "gemini-2.5-flash-preview-tts"
